@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> SVU :: AWP S19 Project</title>
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/modernizr")
+	<link href="~/Content/adminlte.css" rel="stylesheet" />
+	<link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+
+	@RenderBody()
+
+
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	<script src="~/Scripts/adminlte.js"></script>
+	<script src="~/Scripts/jquery/dist/jquery.js"></script>
+	@RenderSection("scripts", required: false)
+</body>
+</html>
