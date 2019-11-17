@@ -13,10 +13,8 @@ namespace AWP_HW.Controllers
 			return View();
 		}
 
-		public ActionResult Registration()
+		public ActionResult Register()
 		{
-			ViewBag.Message = "Your application description page.";
-
 			return View();
 		}
 	}
