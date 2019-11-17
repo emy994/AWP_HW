@@ -14647,7 +14647,8 @@ html.maximized-card {
 
 .card-title {
   float: left;
-  font-size: 1.0rem;
+  margin-top: 4px !important;
+  font-size: 0.9rem !important;
   font-weight: 400;
   margin: 0;
 }
@@ -17314,7 +17315,7 @@ html.maximized-card {
 
 .direct-chat-infos {
   display: block;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   margin-bottom: 2px;
 }
 
